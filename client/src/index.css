@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Dana";
+  src: url("/assets/fonts/dana/DanaFaNum-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dana";
+  src: url("/assets/fonts/dana/DanaFaNum-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dana";
+  src: url("/assets/fonts/dana/DanaFaNum-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dana";
+  src: url("/assets/fonts/dana/DanaFaNum-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dana";
+  src: url("/assets/fonts/dana/DanaFaNum-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-dana: "Dana";
+  --color-primary: #427bff;
+  --color-secondary: #6c757d;
+  --color-success: #4fa746;
+  --color-danger: #dc3545;
+  --color-warning: #f2c010;
+  --color-info: #50a3b9;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-white: #fff;
+}
+
+body {
+  @apply font-dana;
+}
+
+.ltr {
+  direction: ltr;
+}
